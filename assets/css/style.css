@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #bebebe;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  a {
+    color: #2d10d2;
+  }
+
+  
+  /******************* Main Styles *******************/
+
+
+  /******************* Header Styles *******************/
+header {
+    padding: 30px 40px 30px;
+    text-align: center;
+    background-color: #474747;
+    }
+  
+  header h1 {
+      
+    font-weight: bold;
+    font-size: 55px;
+    color: #9a9ba8;
+    display: inline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+  
+  header a {
+    text-decoration: none;
+    color: #9a9ba8;  
+    }
