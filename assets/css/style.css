@@ -93,6 +93,7 @@ header {
 /*********** Footer **********/
 .card-footer {
   text-align: center;
+  grid-column: span 2;
 }
 
 .card-footer::before {
@@ -111,7 +112,7 @@ header {
 
 /*********** Button **********/
 .btn {
-  
+  grid-column: span 2;
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
@@ -125,6 +126,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  
 }
 
 button[disabled] {
@@ -132,13 +134,8 @@ button[disabled] {
   background: #c0c7cf;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
   
-}
+
 
 /*********** Password **********/
 .password-display{
@@ -151,7 +148,7 @@ button[disabled] {
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
+  padding-bottom: 95px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
